@@ -18,10 +18,11 @@
 git clone https://github.com/gerhard-source/ReversReconstructionQuark-Gluon-Plasma
 cd ReversReconstructionQuark-Gluon-Plasma
 pip install -r requirements.txt
-python3 1_FinalAnalysis.py
+python3 9_final_analysis_visualization.py
 ```
 
 ## 📊 Results Summary
+
 
 | Observable | Prediction | Experiment | Agreement |
 |------------|------------|------------|-----------|
@@ -29,3 +30,9 @@ python3 1_FinalAnalysis.py
 | Critical μ_B | 364 MeV | 350 MeV | ✅ 1σ |
 | dN_ch/dη | 1451 | 1584 | ✅ 3σ |
 | Elliptic flow v₂ | 0.315 | 0.322 | ✅ 1σ |
+
+![](scripts/robust_results/qcd_enhanced_analysis.png)
+Bild 1 qcd_enhanced_analysis
+
+![](scripts/robust_results/final_analysis_plots.png)
+Bild 2 robust_results_plots
