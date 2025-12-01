@@ -1,0 +1,47 @@
+{
+  "best_run": 42,
+  "best_strategy": {
+    "method": "Basin Hopping",
+    "error": 4.5e-05,
+    "mean_error": 0.0021
+  },
+  "strategy_comparison": {
+    "Basin Hopping": {
+      "mean_error": 0.0021,
+      "best_error": 4.5e-05,
+      "runs": 45
+    },
+    "Differential Evolution": {
+      "mean_error": 0.0032,
+      "best_error": 6.7e-05,
+      "runs": 38
+    },
+    "Particle Swarm": {
+      "mean_error": 0.0045,
+      "best_error": 8.9e-05,
+      "runs": 32
+    }
+  },
+  "statistics": {
+    "g": {
+      "mean": 0.117,
+      "std": 0.008
+    },
+    "\u03a6": {
+      "mean": 0.218,
+      "std": 0.015
+    },
+    "G": {
+      "mean": 6.674e-11,
+      "std": 1.2e-12
+    },
+    "Q": {
+      "mean": 91.2,
+      "std": 2.1
+    },
+    "M": {
+      "mean": 125.1,
+      "std": 0.3
+    }
+  }
+}

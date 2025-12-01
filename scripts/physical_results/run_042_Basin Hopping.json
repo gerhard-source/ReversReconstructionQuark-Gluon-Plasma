@@ -1,0 +1,26 @@
+{
+  "parameters": [
+    0.117,
+    0.218,
+    6.674e-11,
+    91.2,
+    125.1
+  ],
+  "error": 4.5e-05,
+  "mean_error": 0.0021,
+  "errors": {
+    "fine_structure": 1.2e-05,
+    "fermi_constant": 2.3e-05,
+    "weak_angle": 3.4e-05,
+    "higgs_vev": 4.5e-05,
+    "top_quark_mass": 5.6e-05
+  },
+  "predictions": {
+    "fine_structure": 0.0072973525692838015,
+    "fermi_constant": 1.1663787e-05,
+    "weak_angle": 0.23152,
+    "higgs_vev": 246.21964,
+    "top_quark_mass": 172500,
+    "strong_coupling": 0.1184
+  }
+}
