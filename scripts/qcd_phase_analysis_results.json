@@ -1,0 +1,30 @@
+{
+  "critical_point": {
+    "T": 151.010101010101,
+    "mu_B": 363.6363636363637
+  },
+  "lhc_predictions": {
+    "2.0": {
+      "centrality": "0-10% (zentral)",
+      "n_part": 350,
+      "multiplicity": 14513.23347331691,
+      "v2": 0.3148405614347985,
+      "R_AA": 4.5
+    },
+    "5.0": {
+      "centrality": "10-40% (mid-zentral)",
+      "n_part": 150,
+      "multiplicity": 14513.23347331691,
+      "v2": 0.3148405614347985,
+      "R_AA": 4.5
+    },
+    "8.0": {
+      "centrality": "40-80% (peripheral)",
+      "n_part": 50,
+      "multiplicity": 7375.534286777727,
+      "v2": 0.14662507215812595,
+      "R_AA": 3.0
+    }
+  },
+  "analysis_date": "2025-12-02T13:35:42"
+}

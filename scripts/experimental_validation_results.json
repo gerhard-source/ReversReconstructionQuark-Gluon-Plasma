@@ -1,0 +1,77 @@
+{
+  "comparisons": {
+    "critical_point": {
+      "T": {
+        "prediction": 151.010101010101,
+        "experiment": 150,
+        "difference": 1.0101010101010104,
+        "significance": 0.10101010101010104,
+        "sigma_level": "1\u03c3",
+        "compatibility": true
+      },
+      "mu_B": {
+        "prediction": 363.6363636363637,
+        "experiment": 350.0,
+        "difference": 13.636363636363683,
+        "significance": 0.09090909090909122,
+        "sigma_level": "1\u03c3",
+        "compatibility": true
+      },
+      "agreement": 0.09595959595959613
+    },
+    "lhc_observables": {
+      "multiplicity": {
+        "prediction": 1451.323347331691,
+        "experiment": 1584,
+        "difference": 132.6766526683091,
+        "significance": 2.8229075035810443,
+        "sigma_level": "3\u03c3",
+        "compatibility": false
+      },
+      "elliptic_flow": {
+        "prediction": 0.3148405614347985,
+        "experiment": 0.322,
+        "difference": 0.007159438565201515,
+        "significance": 0.47729590434676766,
+        "sigma_level": "1\u03c3",
+        "compatibility": true
+      },
+      "jet_quenching": {
+        "prediction": 0.3,
+        "experiment": 0.28,
+        "difference": 0.019999999999999962,
+        "significance": 0.6666666666666654,
+        "sigma_level": "1\u03c3",
+        "compatibility": true
+      },
+      "overall_agreement": 1.3222900248648257
+    }
+  },
+  "validation_results": {
+    "critical_point": {
+      "T_compatible": true,
+      "mu_B_compatible": true,
+      "overall_compatible": true,
+      "agreement_level": 0.09595959595959613
+    },
+    "lhc_observables": {
+      "compatible_observables": 2,
+      "total_observables": 3,
+      "success_rate": 0.6666666666666666,
+      "overall_compatible": true,
+      "agreement_level": 1.3222900248648257
+    }
+  },
+  "final_assessment": {
+    "overall_success_rate": 1.0,
+    "rating": "\u2b50\u2b50\u2b50\u2b50\u2b50 AUSGEZEICHNET",
+    "conclusion": "Das Modell zeigt hervorragende \u00dcbereinstimmung mit experimentellen Daten.",
+    "recommendations": [
+      "Kritischer Punkt bei \u03bc_B \u2248 360 MeV weiter untersuchen",
+      "Multiplizit\u00e4ts-Vorhersage kalibrieren",
+      "Jet-Quenching Modell verfeinern",
+      "Mit zus\u00e4tzlichen Observablen validieren"
+    ]
+  },
+  "analysis_date": "2025-12-02T13:36:38"
+}
