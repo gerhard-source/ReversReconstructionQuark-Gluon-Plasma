@@ -32,6 +32,27 @@ pip install -r requirements.txt
 python3 1_FinalAnalysis.py
 ```
 
+## Abstract
+We present a novel reverse reconstruction methodology that predicts the coordinates of the QCD critical point directly from fundamental physical constants. Starting from well-established constants including the fine-structure constant $\alpha_{\text{EM}}$, Fermi coupling $G_F$, weak mixing angle $\sin^2\theta_W$, quark masses, and QCD scale parameter $\Lambda_{\text{QCD}}$, we derive critical temperature $T_c = 151 \pm 5$ MeV and baryon chemical potential $\mu_{B,c} = 364 \pm 15$ MeV. Our predictions show excellent agreement with LHC heavy-ion data ($1$--$3\sigma$ across key observables) and lattice QCD results. The method provides testable predictions for upcoming light-ion collision programs at CERN and RHIC, offering a new approach to constraining the QCD phase diagram from first principles.
+\cite{deForcrand:2010ys}.
+
+## Introduction
+The quantum chromodynamics (QCD) phase diagram remains one of the most fundamental open problems in high-energy nuclear physics. Of particular interest is the QCD critical point---the endpoint of a first-order phase transition line separating hadronic matter from the quark-gluon plasma (QGP). While lattice QCD calculations at zero baryon chemical potential $\mu_B = 0$ predict a smooth crossover at $T_c \approx 156$ MeV \cite{Bazavov:2014pvz}, the location of the critical point at finite $\mu_B$ remains elusive due to the infamous sign problem
+
+Recent experimental programs, including the Beam Energy Scan at RHIC \cite{Adamczyk:2017iwn} and upcoming light-ion collisions at the LHC \cite{CERN:2025oxygen}, aim to detect critical fluctuations that would signal the presence of this landmark. Theoretical approaches typically employ forward modeling: starting from an equation of state and evolving through hydrodynamic simulations to compare with data. Here we propose an inverse approach---reverse reconstruction---that works backward from experimental observables to fundamental parameters, ultimately predicting the critical point coordinates.
+
+## [Methodology](./docs/methodology_paper.md)
+
+## Reverse Reconstruction Algorithm
+The core algorithm minimizes a $\chi^2$ function comparing predicted and experimental observables:
+
+\begin{equation}
+\chi^2(T, \mu_B) = \sum_{i=1}^{N} \frac{\left[ O_i^{\text{pred}}(T, \mu_B; \mathcal{F}) - O_i^{\text{exp}} \right]^2}{\sigma_i^2}
+\end{equation}
+
+## [Paper](./publications/arxiv_preprint.pdf)
+
+
 ## 📊 [Results](./results.md)
 
 | Observable       | Prediction | Experiment | Agreement |
@@ -94,10 +115,6 @@ ReversReconstructionQuark-Gluon-Plasma/
 │   └── results/
 │
 ├── 📁 scripts/
-|   |__ results/
-|	|__ physical_results/
-|	|__ robust_results/
-|   |
 │   ├── 1_FinalAnalysis.py
 │   ├── 2_PhysicalQCD.py
 │   ├── 3_QCD_Phase_Analysis.py
