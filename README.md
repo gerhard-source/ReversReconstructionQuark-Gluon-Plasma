@@ -9,7 +9,7 @@ MIT License – frei für Forschung.
 
 **Autor**: Dr. rer. nat. Gerhard Heymel (@DenkRebell)  
 **Datum**: 22. Oktober 2025  
-**Kontakt**: [x.com/DenkRebell](https://x.com/DenkRebell)
+**Kontakt**: [DenkRebellx](https://mastodon.social/@DenkRebellx)
 
 🌌 **Novel method predicting QCD critical point from first principles**
 
