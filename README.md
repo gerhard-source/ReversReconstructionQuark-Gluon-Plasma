@@ -7,7 +7,7 @@ I would like to help with this problem.
 
 MIT License – frei für Forschung.
 
-**Autor**: Dr. rer. nat. Gerhard Heymel (@DenkRebell)  
+**Autor**: Dr. rer. nat. Gerhard Heymel 
 **Datum**: 22. Oktober 2025  
 **Kontakt**: [DenkRebellx](https://mastodon.social/@DenkRebellx)
 
